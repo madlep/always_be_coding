@@ -1,14 +1,14 @@
-require "tree_node"
+require "data_structure/tree_node"
 
-describe BreadthFirstSearch do 
+describe Algorithm::BreadthFirstSearch do 
   let(:tree) { 
-    a = TreeNode.new(:a)
-    b = TreeNode.new(:b)
-    c = TreeNode.new(:c)
-    d = TreeNode.new(:d)
-    e = TreeNode.new(:e)
-    f = TreeNode.new(:f)
-    g = TreeNode.new(:g)
+    a = DataStructure::TreeNode.new(:a)
+    b = DataStructure::TreeNode.new(:b)
+    c = DataStructure::TreeNode.new(:c)
+    d = DataStructure::TreeNode.new(:d)
+    e = DataStructure::TreeNode.new(:e)
+    f = DataStructure::TreeNode.new(:f)
+    g = DataStructure::TreeNode.new(:g)
 
     a << b
       b << d
