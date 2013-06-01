@@ -18,5 +18,5 @@ Some interesting algorithms can be found at places like
 
 - quicksort
 - depth first search
-
+- breadth first search
 
